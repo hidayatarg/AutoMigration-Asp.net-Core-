@@ -1,5 +1,7 @@
 # AutoMigration-Asp.net-Core-
-In startup.cs Place the following codes. And run the program. Put a debugger on the using block in the configure method for test.
+In startup.cs Place the following codes. And run the program. 
+
+Put a debugger on the using block in the configure method for test.
 ```csharp
 // This method gets called by the runtime. Use this method to add services to the container.
 public void ConfigureServices(IServiceCollection services)
