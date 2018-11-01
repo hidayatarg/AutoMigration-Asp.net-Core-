@@ -18,6 +18,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
        // Other DB context can be placed here
 
     }
+    ...
 }
 
 ```
