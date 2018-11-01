@@ -1,7 +1,7 @@
 # AutoMigration-Asp.net-Core-
 In startup.cs Place the following codes. And run the program. 
 
-Put a debugger on the using block in the configure method for test.
+Put a debugger on the using block in the configure method for test. It will update the database according to the database context. It will be good if the cood is placed in the #If Debug mode. 
 ```csharp
 // This method gets called by the runtime. Use this method to add services to the container.
 public void ConfigureServices(IServiceCollection services)
